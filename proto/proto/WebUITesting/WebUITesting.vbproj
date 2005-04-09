@@ -302,6 +302,10 @@
                     BuildAction = "EmbeddedResource"
                 />
                 <File
+                    RelPath = "Controls\client.js"
+                    BuildAction = "Content"
+                />
+                <File
                     RelPath = "Controls\WebUserControl1.ascx"
                     BuildAction = "Content"
                 />
@@ -351,8 +355,8 @@
             </Include>
         </Files>
         <UserProperties
-            TDLELEMENTTYPE = "WebUI"
             TDLFILE = "DAP.tdl"
+            TDLELEMENTTYPE = "WebUI"
         />
     </VisualBasic>
 </VisualStudioProject>
