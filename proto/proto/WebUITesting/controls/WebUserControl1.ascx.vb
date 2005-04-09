@@ -7,7 +7,7 @@ Public Class WebUserControl1
 	<System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
 
 	End Sub
-	Protected WithEvents Button1 As System.Web.UI.WebControls.Button
+	Protected WithEvents EnterBtn As System.Web.UI.WebControls.Button
 	Protected WithEvents Label1 As System.Web.UI.WebControls.Label
 
 	'NOTE: The following placeholder declaration is required by the Web Form Designer.
@@ -28,7 +28,8 @@ Public Class WebUserControl1
 		InnerHTML = "ddd"
 	End Sub
 
-	Private Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click
-		Label1.Text = "Click"
+	Private Sub EnterBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EnterBtn.Click
+		MsgBox("sdfasdf")
+		Label1.Text() = "afsdf"
 	End Sub
 End Class
