@@ -109,6 +109,21 @@
                     BuildAction = "Compile"
                 />
                 <File
+                    RelPath = "ControlTest.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ControlTest.aspx.vb"
+                    DependentUpon = "ControlTest.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ControlTest.aspx.resx"
+                    DependentUpon = "ControlTest.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
                     RelPath = "Default.htm"
                     BuildAction = "Content"
                 />
@@ -286,11 +301,26 @@
                     DependentUpon = "Dispatcher.aspx.vb"
                     BuildAction = "EmbeddedResource"
                 />
+                <File
+                    RelPath = "controls\WebUserControl1.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "controls\WebUserControl1.ascx.vb"
+                    DependentUpon = "WebUserControl1.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "controls\WebUserControl1.ascx.resx"
+                    DependentUpon = "WebUserControl1.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
             </Include>
         </Files>
         <UserProperties
-            TDLELEMENTTYPE = "WebUI"
             TDLFILE = "DAP.tdl"
+            TDLELEMENTTYPE = "WebUI"
         />
     </VisualBasic>
 </VisualStudioProject>
