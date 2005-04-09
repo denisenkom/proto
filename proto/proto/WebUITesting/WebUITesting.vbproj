@@ -302,25 +302,57 @@
                     BuildAction = "EmbeddedResource"
                 />
                 <File
-                    RelPath = "controls\WebUserControl1.ascx"
+                    RelPath = "Controls\WebUserControl1.ascx"
                     BuildAction = "Content"
                 />
                 <File
-                    RelPath = "controls\WebUserControl1.ascx.vb"
+                    RelPath = "Controls\WebUserControl1.ascx.vb"
                     DependentUpon = "WebUserControl1.ascx"
                     SubType = "ASPXCodeBehind"
                     BuildAction = "Compile"
                 />
                 <File
-                    RelPath = "controls\WebUserControl1.ascx.resx"
+                    RelPath = "Controls\WebUserControl1.ascx.resx"
                     DependentUpon = "WebUserControl1.ascx.vb"
                     BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Controls\Images\i-t-ugbl.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\Images\i-t-ugbr.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\Images\wincolapse.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Controls\Images\winexpose.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\i-t-ugbl.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\i-t-ugbr.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\wincolapse.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\winexpose.bmp"
+                    BuildAction = "Content"
                 />
             </Include>
         </Files>
         <UserProperties
-            TDLFILE = "DAP.tdl"
             TDLELEMENTTYPE = "WebUI"
+            TDLFILE = "DAP.tdl"
         />
     </VisualBasic>
 </VisualStudioProject>

@@ -1,5 +1,5 @@
 <%@ Page Language="vb" AutoEventWireup="false" Codebehind="ControlTest.aspx.vb" Inherits="WebUITesting.ControlTest"%>
-<%@ Register TagPrefix="Acme" TagName="Ctrl" Src="~\WebUserControl1.ascx" %>
+<%@ Register TagPrefix="Acme" TagName="Ctrl" Src="~\Controls\WebUserControl1.ascx" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
   <head>
