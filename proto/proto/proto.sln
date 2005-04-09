@@ -1,0 +1,143 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FE3BBBB6-72D5-11D2-9ACE-00C04F79A2A4}") = "proto", "proto.etp", "{B8F9C895-E3BC-4B64-AC57-E0BD17D86C7D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebProto", "WebProto\WebProto.vdproj", "{74CEBAA6-AB3E-4ABD-A589-C535C53C0AE2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "..\ConsoleApplication1\ConsoleApplication1.csproj", "{50070B6B-33B3-4734-BC04-1FEC2782FECD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sendmessage", "..\programming\learning\sendmessage\sendmessage.vcproj", "{7AC0A444-0100-4505-9425-D1E5378587E7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 14
+		SccProjectName0 = \u0022$/proto\u0022,\u0020ILBAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = proto\\
+		SolutionUniqueID = {503DB757-6CAF-4AF5-8EC0-9EF79C412601}
+		SccProjectUniqueName1 = ..\\ConsoleApplication1\\ConsoleApplication1.csproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = ConsoleApplication1\\
+		SccProjectUniqueName2 = ..\\programming\\learning\\sendmessage\\sendmessage.vcproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = programming\\learning\\sendmessage\\
+		SccProjectUniqueName3 = BusinessFacade\\BusinessFacade.vbproj
+		SccProjectTopLevelParentUniqueName3 = proto.etp
+		SccLocalPath3 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = proto\\BusinessFacade\\
+		SccProjectUniqueName4 = BusinessRules\\BusinessRules.vbproj
+		SccProjectTopLevelParentUniqueName4 = proto.etp
+		SccLocalPath4 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = proto\\BusinessRules\\
+		SccProjectUniqueName5 = DataAccess\\DataAccess.vbproj
+		SccProjectTopLevelParentUniqueName5 = proto.etp
+		SccLocalPath5 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = proto\\DataAccess\\
+		SccProjectUniqueName6 = proto.etp
+		SccLocalPath6 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = proto\\
+		SccProjectUniqueName7 = SystemFrameworks\\SystemFrameworks.vbproj
+		SccProjectTopLevelParentUniqueName7 = proto.etp
+		SccLocalPath7 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = proto\\SystemFrameworks\\
+		SccProjectUniqueName8 = WebProto\\WebProto.vdproj
+		SccLocalPath8 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = proto\\WebProto\\
+		SccProjectUniqueName9 = WinUI\\WinUI.vbproj
+		SccProjectTopLevelParentUniqueName9 = proto.etp
+		SccLocalPath9 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = proto\\WinUI\\
+		SccProjectUniqueName10 = http://localhost/proto_WebService/WebService.vbproj
+		SccProjectTopLevelParentUniqueName10 = proto.etp
+		SccProjectName10 = \u0022$/proto/proto/WebService\u0022,\u0020DNBAAAAA
+		SccLocalPath10 = e:\\inetpub\\wwwroot\\proto_WebService
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice10 = 2
+		SccProjectUniqueName11 = http://localhost/proto_WebUI/WebUI.vbproj
+		SccProjectTopLevelParentUniqueName11 = proto.etp
+		SccProjectName11 = \u0022$/proto/proto/WebUI\u0022,\u0020FNBAAAAA
+		SccLocalPath11 = e:\\inetpub\\wwwroot\\proto_WebUI
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice11 = 2
+		SccProjectUniqueName12 = http://localhost/WebUIc/WebUIc.csproj
+		SccProjectTopLevelParentUniqueName12 = proto.etp
+		SccProjectName12 = \u0022$/proto/proto/WebUIc\u0022,\u0020HNBAAAAA
+		SccLocalPath12 = e:\\inetpub\\wwwroot\\WebUIc
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice12 = 2
+		SccProjectUniqueName13 = http://localhost/WebUITesting/WebUITesting.vbproj
+		SccProjectTopLevelParentUniqueName13 = proto.etp
+		SccProjectName13 = \u0022$/proto/proto/WebUITesting\u0022,\u0020JNBAAAAA
+		SccLocalPath13 = e:\\inetpub\\wwwroot\\WebUITesting
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice13 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{74CEBAA6-AB3E-4ABD-A589-C535C53C0AE2}.Debug.ActiveCfg = Debug
+		{74CEBAA6-AB3E-4ABD-A589-C535C53C0AE2}.Release.ActiveCfg = Release
+		{50070B6B-33B3-4734-BC04-1FEC2782FECD}.Debug.ActiveCfg = Debug|.NET
+		{50070B6B-33B3-4734-BC04-1FEC2782FECD}.Debug.Build.0 = Debug|.NET
+		{50070B6B-33B3-4734-BC04-1FEC2782FECD}.Release.ActiveCfg = Release|.NET
+		{50070B6B-33B3-4734-BC04-1FEC2782FECD}.Release.Build.0 = Release|.NET
+		{7AC0A444-0100-4505-9425-D1E5378587E7}.Debug.ActiveCfg = Debug|Win32
+		{7AC0A444-0100-4505-9425-D1E5378587E7}.Debug.Build.0 = Debug|Win32
+		{7AC0A444-0100-4505-9425-D1E5378587E7}.Release.ActiveCfg = Release|Win32
+		{7AC0A444-0100-4505-9425-D1E5378587E7}.Release.Build.0 = Release|Win32
+		{B2895AA8-47E1-4572-8D79-9AC69D600D1F}.Debug.ActiveCfg = Debug|.NET
+		{B2895AA8-47E1-4572-8D79-9AC69D600D1F}.Debug.Build.0 = Debug|.NET
+		{B2895AA8-47E1-4572-8D79-9AC69D600D1F}.Release.ActiveCfg = Release|.NET
+		{B2895AA8-47E1-4572-8D79-9AC69D600D1F}.Release.Build.0 = Release|.NET
+		{04ABA779-0066-48B1-966A-D7FEC9BDFD0B}.Debug.ActiveCfg = Debug|.NET
+		{04ABA779-0066-48B1-966A-D7FEC9BDFD0B}.Debug.Build.0 = Debug|.NET
+		{04ABA779-0066-48B1-966A-D7FEC9BDFD0B}.Release.ActiveCfg = Release|.NET
+		{04ABA779-0066-48B1-966A-D7FEC9BDFD0B}.Release.Build.0 = Release|.NET
+		{6AAE460D-502B-4693-B297-DBD2D6D65EB0}.Debug.ActiveCfg = Debug|.NET
+		{6AAE460D-502B-4693-B297-DBD2D6D65EB0}.Debug.Build.0 = Debug|.NET
+		{6AAE460D-502B-4693-B297-DBD2D6D65EB0}.Release.ActiveCfg = Release|.NET
+		{6AAE460D-502B-4693-B297-DBD2D6D65EB0}.Release.Build.0 = Release|.NET
+		{40A12516-9059-41BE-A54A-2AE4FB38634B}.Debug.ActiveCfg = Debug|.NET
+		{40A12516-9059-41BE-A54A-2AE4FB38634B}.Debug.Build.0 = Debug|.NET
+		{40A12516-9059-41BE-A54A-2AE4FB38634B}.Release.ActiveCfg = Release|.NET
+		{40A12516-9059-41BE-A54A-2AE4FB38634B}.Release.Build.0 = Release|.NET
+		{1D2EE501-F995-40EF-B257-46DA8192B92B}.Debug.ActiveCfg = Debug|.NET
+		{1D2EE501-F995-40EF-B257-46DA8192B92B}.Release.ActiveCfg = Release|.NET
+		{10C8FAB0-4D1D-48CA-AC17-99DD34D58108}.Debug.ActiveCfg = Debug|.NET
+		{10C8FAB0-4D1D-48CA-AC17-99DD34D58108}.Debug.Build.0 = Debug|.NET
+		{10C8FAB0-4D1D-48CA-AC17-99DD34D58108}.Release.ActiveCfg = Release|.NET
+		{10C8FAB0-4D1D-48CA-AC17-99DD34D58108}.Release.Build.0 = Release|.NET
+		{939104A4-A9D6-4EFA-BBF0-193879A66F74}.Debug.ActiveCfg = Debug|.NET
+		{939104A4-A9D6-4EFA-BBF0-193879A66F74}.Release.ActiveCfg = Release|.NET
+		{C576B20E-842A-4EF9-9965-8910D51B62F8}.Debug.ActiveCfg = Debug|.NET
+		{C576B20E-842A-4EF9-9965-8910D51B62F8}.Release.ActiveCfg = Release|.NET
+		{EF33AF1D-63CB-464E-9F51-F763C2846630}.Debug.ActiveCfg = Debug|.NET
+		{EF33AF1D-63CB-464E-9F51-F763C2846630}.Debug.Build.0 = Debug|.NET
+		{EF33AF1D-63CB-464E-9F51-F763C2846630}.Release.ActiveCfg = Release|.NET
+		{EF33AF1D-63CB-464E-9F51-F763C2846630}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

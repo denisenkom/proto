@@ -1,0 +1,288 @@
+<VisualStudioProject>
+    <VisualBasic
+        OwnerKey = "{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}"
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{10C8FAB0-4D1D-48CA-AC17-99DD34D58108}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WebUI"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "WebUI"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "BusinessFacade"
+                    Project = "{B2895AA8-47E1-4572-8D79-9AC69D600D1F}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Frameset1.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OrdersList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OrdersList.aspx.vb"
+                    DependentUpon = "OrdersList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OrdersList.aspx.resx"
+                    DependentUpon = "OrdersList.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OrdersRegister.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OrdersRegister.aspx.vb"
+                    DependentUpon = "OrdersRegister.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OrdersRegister.aspx.resx"
+                    DependentUpon = "OrdersRegister.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OrderTasks.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "OrderTasks.aspx.vb"
+                    DependentUpon = "OrderTasks.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OrderTasks.aspx.resx"
+                    DependentUpon = "OrderTasks.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ReceiptsRegister.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "ReceiptsRegister.aspx.vb"
+                    DependentUpon = "ReceiptsRegister.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ReceiptsRegister.aspx.resx"
+                    DependentUpon = "ReceiptsRegister.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TaskList.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TaskList.aspx.vb"
+                    DependentUpon = "TaskList.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TaskList.aspx.resx"
+                    DependentUpon = "TaskList.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TaskListPrint.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "TaskListPrint.aspx.vb"
+                    DependentUpon = "TaskListPrint.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TaskListPrint.aspx.resx"
+                    DependentUpon = "TaskListPrint.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BufForms\T3.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BufForms\T5.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\graylevel.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\greenlevel.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\redlevel.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\tick.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\wincolapse.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\winexpose.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\yellowlevel.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\Constraint.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\Database.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\OrderScripts.js"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+        <UserProperties
+            TDLELEMENTTYPE = "WebUI"
+            TDLFILE = "DAP.tdl"
+        />
+    </VisualBasic>
+</VisualStudioProject>
+
